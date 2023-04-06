@@ -2,18 +2,17 @@
   <ion-page>
     <ion-header>
       <ion-toolbar>
-        <ion-title>Tab 1</ion-title>
+        <ion-title>Tab 2</ion-title>
       </ion-toolbar>
     </ion-header>
     <ion-content :fullscreen="true">
       <ion-header collapse="condense">
         <ion-toolbar>
-          <ion-title size="large">Tab 1</ion-title>
+          <ion-title size="large">Tab 2/SUB PAGE</ion-title>
         </ion-toolbar>
       </ion-header>
 
-      TAB 1 parent page
-      <ion-button @click="$router.push('tab1/tab1sub')">GO TO SUB</ion-button>
+      SUB PAGE 2
     </ion-content>
   </ion-page>
 </template>

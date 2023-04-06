@@ -20,8 +20,16 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('@/views/Tab1Page.vue')
       },
       {
+        path: 'tab1/tab1sub',
+        component: () => import('@/views/Tab1SubPage.vue')
+      },
+      {
         path: 'tab2',
         component: () => import('@/views/Tab2Page.vue')
+      },
+      {
+        path: 'tab2/tab2sub',
+        component: () => import('@/views/Tab2SubPage.vue')
       },
       {
         path: 'tab3',
